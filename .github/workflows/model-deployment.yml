@@ -32,10 +32,12 @@ jobs:
     
     - name: Generate dataset
       run: |
+        mkdir -p data
         python generate_data.py
     
     - name: Train model
       run: |
+        mkdir -p models
         python train.py
     
     - name: Configure AWS credentials
