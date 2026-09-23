@@ -7,4 +7,4 @@ spec:
   predictor:
     serviceAccountName: sa-s3-access
     sklearn:
-      storageUri: s3://mlops-sagemaker-demo-bucket/model/
+      storageUri: s3://mlops-sagemaker-demo-bucket/model/churn_model.pkl
